@@ -6,10 +6,5 @@ healthcheckPath = "/setup/healthz"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"
 
-[[volumes]]
-mount_path = "/data"
-
 [variables]
 PORT = "8080"
-OPENCLAW_STATE_DIR = "/data/.openclaw"
-OPENCLAW_WORKSPACE_DIR = "/data/workspace"
